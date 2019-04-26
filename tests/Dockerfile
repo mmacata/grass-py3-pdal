@@ -1,4 +1,4 @@
-FROM aocd
+FROM grass-py3-pdal
 
 ADD https://grass.osgeo.org/sampledata/north_carolina/nc_spm_08_grass7.tar.gz /grassdata/tests/
 # COPY tmp/nc_spm_08_grass7.tar.gz /grassdata/tests/
